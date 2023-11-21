@@ -1,0 +1,57 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rollBoard, .scoreBoard {
+    display: flex;
+    /* min-height: 50px; */
+
+}
+
+.rollBoard {
+    background-color: aqua;
+}
+
+.scoreBoard {
+    background-color: beige;
+}
+
+.boardRolls{
+    margin: 15px;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+.rollBtn {
+    border: 2px solid black;
+}
+
+.points {
+    border: 3px solid black;
+}
+
+img {
+    min-height: 80px;
+    min-width: 80px;
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.dice {
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.totalPoints {
+    font-size: 25px;
+    color: black;
+}
+
+button {
+    margin: 10px;
+}
